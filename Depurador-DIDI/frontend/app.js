@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Llama a la API de Python (asumiendo que correremos FastAPI en localhost:8000 o Vercel)
-            const response = await fetch('/api/process', {
+            const response = await fetch('/api/index', {
                 method: 'POST',
                 body: formData
             });

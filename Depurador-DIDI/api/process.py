@@ -489,3 +489,4 @@ if os.path.exists(frontend_path):
         if os.path.exists(file_path):
             return FileResponse(file_path)
         return JSONResponse(status_code=404, content={"message": "File not found"})
+
